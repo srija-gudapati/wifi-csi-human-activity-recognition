@@ -1,0 +1,54 @@
+# -------------------------
+# DATA (never upload)
+# -------------------------
+dataset/
+data/
+experiments/
+logs/
+outputs/
+
+# -------------------------
+# TRAINED MODELS
+# -------------------------
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+checkpoints/
+
+# -------------------------
+# PYTHON CACHE
+# -------------------------
+__pycache__/
+*.pyc
+
+# -------------------------
+# JUPYTER
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# ENVIRONMENT
+# -------------------------
+.env
+.venv/
+venv/
+
+# -------------------------
+# SYSTEM FILES
+# -------------------------
+.DS_Store
+
+
+# outputs
+saved_models/*
+logs/*
+*.pth
+*.pt
+*.npy
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
